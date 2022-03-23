@@ -1,4 +1,4 @@
-# compute_student_grade_app
+# Student Grade App
 App that take student inputs and compute grades.
 
 input: name(str), score (int), grade status (int), division (int)
