@@ -1,4 +1,4 @@
-"""Anh Dang. 9/15/2021.
+"""Anh Dang
 App that take student inputs and compute grades.
 
 input: name(str), score (int), grade status (int), division (int)
@@ -7,13 +7,10 @@ output: name(str), score (int), grade status (str - Graded or Pass/Fail), divisi
 Note: download the input.text file in the same folder to load the data.
 """
 
-
-
 student_list = []
 
 need_to_save = False #boolean to prevent duplicate in saving values
 filename = ''  #allow users to input filename if it was not determined
-
 
 class Student:
     count = 0
@@ -59,8 +56,6 @@ class Student:
             else:
                 return 'B'
         
-           
-      
     def __str__(self):
         return f'{"Name":s}:{self.name:>12s}|{"Score":s}:{self.score:>12d}|{"Status":s}:{self.status:>12s}|{"Division":s}:{self.division:>12s}|{"Grade":s}:{self.grade:^7s}|'
 
@@ -87,13 +82,11 @@ class Student:
         else:
             return None
     
-
     @classmethod
     def resetstats(cls):
         cls.total_graded_score = cls.total_score = 0
         cls.count = cls.graded_count = 0
         cls.count_A = cls.count_100 = 0
-
 
     @classmethod
     def summary_string(cls):
@@ -114,8 +107,6 @@ class Student:
         
         return summaryinfo
 
-
-
     @staticmethod
     def line():
         return '-'*60
@@ -123,11 +114,6 @@ class Student:
     def caption():
         return f'|{"Name":^12s}|{"Score":^12s}|{"Status":^12s}|{"Division":^12s}|{"Grade":^6s}|')
 
-
-
-
- 
- 
 #end class
 def processline(line,separator = None):   #process data from submit()
     global student_list, student_dict,need_to_save
@@ -168,23 +154,18 @@ def is_valid_graded(graded):
 
     return graded == 1 or graded == 0
 
-
-
 def is_valid_division(division):
     return division == 1 or division == 0
 
 def submit():  #take input from users
     
-
     line = input('Name, score, graded/not, upper/lower division, latter two as 1/0 >>')
     
     student = processline(line)
     print(student)
     
 
-
 def load():  #load data from a specified file
- 
 
    with open('input.txt', 'r') as infile:
        lines = infile.readlines()
@@ -202,8 +183,6 @@ def summary():  #output summary
    else:
        print('No data in system')
     
-
-
 def reset():  #reset data
    global need_to_save,filename
 
@@ -238,7 +217,6 @@ def save():
        print('No data to save..')
        return
     
-
    if need_to_save:   
         if not filename:
             filename = input('Enter filename to save to: >>')
@@ -269,7 +247,6 @@ def search():
     if not found:
         print(key + ' was not found.')
     
-
 def clear_data():
    global student_list
 
@@ -282,7 +259,6 @@ def exit_app():
         save()
     clear_data()
     print('Bye..')
- 
  
 quit = False
 while not quit:
