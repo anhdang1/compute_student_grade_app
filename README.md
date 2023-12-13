@@ -17,7 +17,7 @@ Note: download the input.text file in the same folder to load the data.
 Hi! I'm Anh and I have an ultimate interest in Data Visualization, Project Management, and Business. Throughout my undergraduate years at the University of Washington - Seattle campus (UW), I took a lot of information systems and programming courseworks including Application Programming, Database Management, Data Analytics, Systems Analysis and Design, etc, all of which helped strengthen my technical knowledge and communication skills.
 I'm a big believer in learning by doing so I spend a lot of time applying what I learned in school to side projects and discovering new skills if possible.
 
-Regarding professional experience, I'm working as a Service Management Support Specialist for the university's IT department and also a Teaching Assistant for the Master of Science in Information Systems Program at UW while still being an undergraduate. 
+Regarding professional programming experience, I was a Teaching Assistant for the Master of Science in Information Systems Program at UW while still being an undergraduate. 
 I believe having such experiences enables me to pick up things fast and perform well both under pressure and in a fast-paced work environment.
 
 # Contact Me For Any Opportunities
