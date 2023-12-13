@@ -10,7 +10,7 @@ Note: download the input.text file in the same folder to load the data.
 # Other Projects
 1. [Stock Correlation Analysis](https://github.com/anhdang1/stock-correlation-analysis)
 2. [Visualize Youtube Activities with R](https://github.com/anhdang1/visualize-youtube-activities-with-R)
-3. [Crime Acorss WA Colleges Analysis](https://anhdang1.shinyapps.io/crimes-in-wa-colleges/)
+3. [Crime Across WA Colleges Analysis](https://anhdang1.shinyapps.io/crimes-in-wa-colleges/)
 4. [Oil Consumption Around The World](https://github.com/anhdang1/climate_change)
 
 # ABOUT ME
